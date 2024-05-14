@@ -1,87 +1,87 @@
 // Assignment 01
 // Miles to Kilometers Converter(Operator)
 
-// import inquirer from "inquirer";
+import inquirer from "inquirer";
 
-// let miles: number = 5
-// let convert_into_km: number = miles * 1.60934
-// let kilometers = convert_into_km
-// console.log(`The distance of ${kilometers} kilometers is equal to ${miles} miles `);
+let miles: number = 5
+let convert_into_km: number = miles * 1.60934
+let kilometers = convert_into_km
+console.log(`The distance of ${kilometers} kilometers is equal to ${miles} miles `);
 
 // Assignment 02
 // Evaluating number game
 
-// import inquirer from "inquirer";
-// let dynamicNum = Math.floor(Math.random() * 5 +1)
-// let userNum = await inquirer.prompt
-// (
-//     [
-//         {
-//             name: "name",
-//             type: "number",
-//             message: "Enter the number..."
+import inquirer from "inquirer";
+let dynamicNum = Math.floor(Math.random() * 5 +1)
+let userNum = await inquirer.prompt
+(
+    [
+        {
+            name: "name",
+            type: "number",
+            message: "Enter the number..."
 
-//         }
-//     ]
-// )
-// let {name} = userNum
-// if(name === dynamicNum){
-//   console.log(`Your guessed is equal to dynamic value.`);
+        }
+    ]
+)
+let {name} = userNum
+if(name === dynamicNum){
+  console.log(`Your guessed is equal to dynamic value.`);
 
-// }
-// else if(name > dynamicNum){
-//     console.log(`Your guessed is greater than dynamic value.`);
+}
+else if(name > dynamicNum){
+    console.log(`Your guessed is greater than dynamic value.`);
 
-// }
-// else
-// {
-//     console.log(`Your guessed is less than dynamic value`);
+}
+else
+{
+    console.log(`Your guessed is less than dynamic value`);
 
-// }
+}
 
 // Assignment 03
 // Friend Checker Game
-// import inquirer from "inquirer";
-// let user:{name: string} = await inquirer.prompt([
-//   {
-//     name: "name",
-//     type: "input",
-//     message: "Enter your name",
-//   },
-// ]);
-// let  {name } = user;
-// let userName = name.toLowerCase();
-// switch (userName) {
-//   case "asfa": console.log("You're known");
-//   break;
-//   case"jaweriya": console.log("You're known");
-//   break;
-//   case "misbah":console.log("You're known");
-//   break;
-//     case "mutaiba" :console.log("You're known");
-//  break;
-//  case "areeba":
-//  console.log("You're known");
-//   break;
+import inquirer from "inquirer";
+let user:{name: string} = await inquirer.prompt([
+  {
+    name: "name",
+    type: "input",
+    message: "Enter your name",
+  },
+]);
+let  {name } = user;
+let userName = name.toLowerCase();
+switch (userName) {
+  case "asfa": console.log("You're known");
+  break;
+  case"jaweriya": console.log("You're known");
+  break;
+  case "misbah":console.log("You're known");
+  break;
+    case "mutaiba" :console.log("You're known");
+ break;
+ case "areeba":
+ console.log("You're known");
+  break;
 
-//   default:
-    // console.log("Default response");
-// }
+  default:
+    console.log("Default response");
+}
 
 // Assignment 04
 // Functions
 
-// let num1 : number = 2
-// let num2 : number =  4
-// function num(num1 : number, num2 : number): void {
-//   console.log(num1+ num2);
+let num1 : number = 2
+let num2 : number =  4
+function num(num1 : number, num2 : number): void {
+  console.log(num1+ num2);
 
-// }
-// // Passing an argument through by using variable
-// num(2,5)
+}
+// Passing an argument through by using variable
+num(2,5)
 
-// // passing an argument through number
-// num(3,5)
+// passing an argument through number
+num(3,5)
 
 // Assignment 05
 // Calculator Project Using Function
